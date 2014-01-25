@@ -1,4 +1,4 @@
-function say(){
-  var message = "hello world";
+function say(message){
+  var message = message || "hello world";
   console.log(message);
 }
